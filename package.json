@@ -1,0 +1,20 @@
+{
+  "name": "reactlearning",
+  "version": "1.0.0",
+  "description": "Learning React",
+  "homepage": "https://github.com/manojghodekar/React#readme",
+  "bugs": {
+    "url": "https://github.com/manojghodekar/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojghodekar/React.git"
+  },
+  "license": "ISC",
+  "author": "manoj",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
