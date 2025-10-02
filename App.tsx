@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-const heading = React.createElement("div", {id:"parent"},
-    React.createElement("div", {id:"child"},// nested element
-        [React.createElement("h1", {}, "Hello React new"), React.createElement("h2", {}, "Welcome")]
-))
-console.log(heading)
+// Core React Syntax
+const element = React.createElement("h1", {"id":"heading"}, "Hello, Welcome to react")
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(heading)
+
+//JSX Syntax
+//JSX => React.createElement (Babel)=> javsScript Object => HtmL (render)
+const jsxHeading = (<h1 className="heading">
+    Hello React</h1>)
+root.render(jsxHeading)
